@@ -1,0 +1,53 @@
+@import url("./roboto.css");
+@import url("./chota.css");
+
+:root {
+	--color-primary: #6c06a2;
+	--color-grey: #d60f5a;
+	--color-error: #d21932;
+	--color-success: #34cf9e;
+	--color-bg: #3E3E3E;
+	--font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: var(--color-bg);
+}
+
+.hero-section {
+	background: rgb(214,15,90);
+	background: linear-gradient(0deg, var(--color-grey) 0%, var(--color-primary) 100%);
+	min-height: 50vh;
+	text-align: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+
+}
+
+.hero-section .hero-section-text {
+	color: #fefefe;
+	text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.mt-2 {
+	margin-top: 2rem;
+}
+
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
+.mt-4 {
+	margin-top: 4rem;
+}
+
+.mb-4 {
+	margin-bottom: 4rem;
+}
