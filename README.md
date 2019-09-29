@@ -1,5 +1,5 @@
 # Edmund Pfeil - Portfolio Site
-> Portfolio site made using Preact, Javascript, and Picnic CSS.
+> Portfolio site made using Preact, Javascript, and Beauter.css
 
 ## Install
 ``` bash
