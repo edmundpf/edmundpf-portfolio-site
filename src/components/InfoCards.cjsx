@@ -88,7 +88,7 @@ module.exports = class extends React.Component
 					<Card
 						title={ experienceCard.title }
 						buttonText='See More'
-						buttonLink='/about#documents'
+						buttonLink='assets/pdf/Edmund Pfeil - Resume.pdf'
 						content=
 						{
 							experienceCard.items.map((value, index) =>
