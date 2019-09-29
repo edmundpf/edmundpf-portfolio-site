@@ -1,0 +1,172 @@
+@import url("./beauter.min.css");
+
+:root {
+	--color-primary: #6c06a2;
+	--color-secondary: #d60f5a;
+	--color-third: #b60d4d;
+	--color-background: #373737;
+}
+
+/* Body */
+
+body {
+	background-color: var(--color-background);
+}
+
+/* Navbar */
+
+ul.topnav li a.brand {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* Card */
+
+h4.card-title {
+	margin-top: 2rem;
+}
+
+hr.card-div {
+	width: 100%;
+	margin-top: 0rem;
+	margin-bottom: 2rem;
+}
+
+/* Tooltip */
+
+.tooltip {
+	border-bottom: none;
+}
+
+.tooltip .tooltiptext
+{
+	-webkit-transition: opacity 0.25s;
+	-o-transition: opacity 0.25s;
+	transition: opacity 0.25s;
+	opacity: 0;
+}
+
+/* Links */
+
+a {
+	color: var(--color-secondary);
+}
+
+a:hover {
+	color: var(--color-third);
+}
+
+/* Block Quote */
+
+blockquote {
+	border-left: 5px solid var(--color-secondary);
+}
+
+/* Hero Links */
+
+.hero-link {
+	font-size: 1.8rem;
+}
+
+/* Colors */
+
+._top-gradient {
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, var(--color-background) 0%, var(--color-primary) 100%);
+}
+
+._f-theme-primary {
+	color: var(--color-primary) !important;
+}
+
+._theme-primary {
+	background-color: var(--color-primary) !important;
+}
+
+._f-theme-secondary {
+	color: var(--color-secondary) !important;
+}
+
+._theme-secondary {
+	background-color: var(--color-secondary) !important;
+}
+
+._f-theme-background {
+	color: var(--color-background) !important;
+}
+
+._theme-background {
+	background-color: var(--color-background) !important;
+}
+
+/* Utitlites */
+
+@media only screen and (min-width: 550px)
+{
+	._desktopWidth50 {
+		width: 50%;
+	}
+}
+
+._ml-2 {
+	margin-left: 2rem;
+}
+
+._mr-2 {
+	margin-right: 2rem;
+}
+
+._mt-2 {
+	margin-top: 2rem;
+}
+
+._mt-4 {
+	margin-top: 4rem;
+}
+
+._mt-8 {
+	margin-top: 8rem;
+}
+
+._mb-1 {
+	margin-bottom: 1rem;
+}
+
+._mb-2 {
+	margin-bottom: 2rem;
+}
+
+._mb-4 {
+	margin-bottom: 4rem;
+}
+
+._mb-8 {
+	margin-bottom: 8rem;
+}
+
+._pt-2 {
+	padding-top: 2rem;
+}
+
+._pt-4 {
+	padding-top: 4rem;
+}
+
+._pt-8 {
+	padding-top: 8rem;
+}
+
+._pb-2 {
+	padding-bottom: 2rem;
+}
+
+._pb-4 {
+	padding-bottom: 4rem;
+}
+
+._pb-8 {
+	padding-bottom: 8rem;
+}
+
+
+/* End CSS */

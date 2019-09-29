@@ -1,0 +1,96 @@
+React = require('react')
+EmailCard = require('./EmailCard.cjsx')
+languageItems = require('../../assets/json/languages.json')
+techItems = require('../../assets/json/allTech.json')
+
+nonCoding =
+	title: "What I do when I'm not coding 👀"
+	text: """
+	I really enjoy music and like everything from EDM to Hip-Hop to Rock and pretty much everything in between.
+	I also lift weights semi-religiously for fun. Lastly, I enjoy long drives, long walks, and a good hamburger.
+	"""
+
+languages =
+	title: 'Languages 📜'
+	items:
+		'Web Technology': languageItems.web
+		'Web Frameworks': languageItems.frameworks
+		'Server-Side Langugages': languageItems.server
+		'Data Technology': languageItems.data
+
+tech =
+	title: 'Technologies ⚙️'
+	items: techItems
+
+docs =
+	title: 'Documents 📄'
+	items:
+		'Resume': 'assets/pdf/Edmund Pfeil - Resume.pdf'
+		'Cover Letter': 'assets/pdf/Edmund Pfeil - Cover Letter.pdf'
+		'References': 'assets/pdf/Edmund Pfeil - References.pdf'
+
+module.exports = class extends React.Component
+
+	constructor: (props) ->
+
+	render: ->
+		<div class="container -content _f-white _mt-4">
+
+			<a name="about" class="_f-white">
+				<h4 class="card-title">{ nonCoding.title }</h4>
+			</a>
+			<hr class="card-div" />
+			<p class="_mb-4">{ nonCoding.text }</p>
+
+			<a name="languages" class="_f-white">
+				<h4 class="card-title">{ languages.title }</h4>
+			</a>
+			<hr class="card-div" />
+			<p class="_mb-4">
+				{
+					Object.keys(languages.items).map((key, index) =>
+						<div>
+							<h5 class="_mb-1">{ key }</h5>
+							<blockquote class="_mb-2">{ languages.items[key].join(', ') }</blockquote>
+						</div>
+					)
+				}
+			</p>
+
+			<a name="technology" class="_f-white">
+				<h4 class="card-title">{ tech.title }</h4>
+			</a>
+			<hr class="card-div" />
+			<p>
+				<ul>
+				{
+					tech.items.map((value, index) =>
+						<li>{ value }</li>
+					)
+				}
+				</ul>
+			</p>
+
+			<a name="documents" class="_f-white">
+				<h4 class="card-title">{ docs.title }</h4>
+			</a>
+			<hr class="card-div" />
+			<p>
+				<ul>
+				{
+					Object.keys(docs.items).map((key, index) =>
+						<li>
+							<a href={ docs.items[key] }>
+								<h5>{key}</h5>
+							</a>
+						</li>
+					)
+				}
+				</ul>
+			</p>
+
+			<EmailCard />
+
+		</div>
+
+#::: End Program :::

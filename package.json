@@ -1,7 +1,7 @@
 {
   "name": "edmund-pfeil-portfolio",
   "version": "0.0.1",
-  "description": "Portfolio site created with Preact, Javascript, and Picnic CSS.",
+  "description": "Portfolio site created with Preact, Javascript, and Beauter CSS.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -55,5 +55,7 @@
     "proptypes": "^1.1.0",
     "watchify": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "preact-router": "^2.6.1"
+  }
 }

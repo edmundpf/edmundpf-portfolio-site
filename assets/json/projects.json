@@ -1,0 +1,29 @@
+{
+  "Robinhood Yolo": {
+    "text": "Robinhood Brokerage API and CLI for options trading written in Node.js",
+    "git": "https://github.com/edmundpf/robinhood_yolo",
+    "npm": "https://www.npmjs.com/package/robinhood-yolo"
+  },
+  "Nuxt Mongoose PWA": {
+    "text": "Automatic Rest API and CRUD web app secured by JWT using Vue/Nuxt, just add your Mongoose models",
+    "git": "https://github.com/edmundpf/nuxt_mongoose_pwa"
+  },
+  "Nuxt Coffee PWA": {
+    "text": "Automatic PWA starter template using Nuxt, Coffeescript, Bulma and Firestore",
+    "git": "https://github.com/edmundpf/nuxt_coffee_pwa_starter"
+  },
+  "Print Tools JS": {
+    "text": "Easy-to-use print tools for Node.js",
+    "git": "https://github.com/edmundpf/print_tools_js",
+    "npm": "https://www.npmjs.com/package/print-tools-js"
+  },
+  "Python Datatype Tools": {
+    "text": "Additional methods for python's immutable data types",
+    "git": "https://github.com/edmundpf/datatype_tools",
+    "python": "https://pypi.org/project/datatype-tools/"
+  },
+  "LPD8806 Python": {
+    "text": "Python 3 library to control an LPD8806 LED strip",
+    "git": "https://github.com/edmundpf/LPD8806_Python3"
+  }
+}

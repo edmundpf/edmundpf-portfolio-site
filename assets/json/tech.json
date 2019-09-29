@@ -1,0 +1,34 @@
+{
+  "Frameworks": [
+    "Vue",
+    "React",
+    "Django",
+    "Flask",
+    "Angular",
+    "Bootstrap"
+  ],
+  "Favorite Languages": [
+    "Javascript",
+    "Node.js",
+    "Python",
+    "PHP",
+    "Ruby on Rails",
+    "VB.Net",
+    "Java",
+    "C"
+  ],
+  "Data Technology": [
+    "SQL",
+    "NoSQL",
+    "GraphQL",
+    "MongoDB",
+    "JSON",
+    "XML"
+  ],
+  "Other Tools": [
+    "Git",
+    "FTP",
+    "Apache",
+    "REST API's"
+  ]
+}

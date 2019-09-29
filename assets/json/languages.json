@@ -1,0 +1,49 @@
+{
+  "web": [
+    "Python",
+    "Javascript",
+    "Node.js",
+    "PHP",
+    "Ruby on Rails",
+    "VB.NET",
+    "Perl",
+    "Java",
+    "Go",
+    "C",
+    "C++",
+    "C#",
+    "CSS",
+    "SCSS",
+    "HTML5"
+  ],
+  "frameworks": [
+    "React",
+    "Vue",
+    "React Native",
+    "Nativescript",
+    "Nuxt",
+    "Django",
+    "Flask",
+    "JQuery",
+    "Bootstrap",
+    "Bulma",
+    "Vuetify"
+  ],
+  "server": [
+    "VB.NET",
+    "Perl",
+    "Java",
+    "Go",
+    "C",
+    "C++",
+    "C#"
+  ],
+  "data": [
+    "SQL",
+    "MongoDB",
+    "NoSQL",
+    "GraphQL",
+    "REST API's",
+    "XML"
+  ]
+}

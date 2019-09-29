@@ -1,24 +1,34 @@
 React = require('react')
 
+hideMobileClasses = 'topnav _theme-primary'
+showMobileClasses = 'topnav _theme-primary responsive'
+
 module.exports = class extends React.Component
 
 	constructor: (props) ->
 		super(props)
+		this.state =
+			showMobileNav: false
+
+	handleMenuClick: (e) =>
+		this.setState(showMobileNav: !this.state.showMobileNav)
 
 	render: ->
-		<nav class="nav bg-primary">
-			<div class="nav-left">
-				<a class="brand text-white">
-					{ this.props.title }
-				</a>
-			</div>
-			<div class="nav-right">
+
+		<ul class={ if this.state.showMobileNav then showMobileClasses else hideMobileClasses }>
+			<li>
+				<a href="/" class="brand">{ this.props.title }</a>
+			</li>
 				{
 					Object.keys(this.props.links).map((key, index) =>
-						<a href={ this.props.links[key].link } class="text-white">{ key }</a>
+						<li>
+							<a href={ this.props.links[key].link }>{ key }</a>
+						</li>
 					)
 				}
-			</div>
-		</nav>
+			<li class="-icon">
+				<a href="javascript:" onClick={ this.handleMenuClick }>☰</a>
+			</li>
+		</ul>
 
 #::: End Program :::
