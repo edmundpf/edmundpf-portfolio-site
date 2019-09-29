@@ -4,7 +4,7 @@
 ## Install
 ``` bash
 # Clone Repo
-$ git Clone
+$ git clone git@github.com:edmundpf/edmundpf-portfolio-site.git
 
 # Install
 $ npm i
