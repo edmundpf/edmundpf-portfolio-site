@@ -18,7 +18,7 @@
     "npm": "https://www.npmjs.com/package/print-tools-js"
   },
   "Python Datatype Tools": {
-    "text": "Additional methods for python's immutable data types",
+    "text": "Additional methods for Python's immutable data types",
     "git": "https://github.com/edmundpf/datatype_tools",
     "python": "https://pypi.org/project/datatype-tools/"
   },
