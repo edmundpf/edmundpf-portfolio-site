@@ -80,9 +80,9 @@ module.exports = class extends React.Component
 				{
 					Object.keys(docs.items).map((key, index) =>
 						<li>
-							<a href={ docs.items[key] }>
-								<h5>{key}</h5>
-							</a>
+							<h5>
+								<a href={ docs.items[key] }>{key}</a>
+							</h5>
 						</li>
 					)
 				}

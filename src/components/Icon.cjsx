@@ -13,7 +13,7 @@ module.exports = class extends React.Component
 			this.iconSrc = 'assets/images/python.svg'
 
 	render: ->
-		<a href={ this.props.href }>
+		<a href={ this.props.href } class={ this.props.class }>
 			<div class="tooltip -tooltip-top">
 				<img
 					height={ this.props.height or 16 }
