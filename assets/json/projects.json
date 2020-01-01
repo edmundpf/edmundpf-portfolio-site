@@ -4,6 +4,11 @@
     "git": "https://github.com/edmundpf/robinhood_yolo",
     "npm": "https://www.npmjs.com/package/robinhood-yolo"
   },
+  "Trading View Technical Indicators": {
+    "text": "Library to fetch Trading View's technical indicator recommendations written in Typescript",
+    "git": "https://github.com/edmundpf/trading-view-ind-ts",
+    "npm": "https://www.npmjs.com/package/trading-view-ind-ts"
+  },
   "Nuxt Mongoose PWA": {
     "text": "Automatic Rest API and CRUD web app secured by JWT using Vue/Nuxt, just add your Mongoose models",
     "git": "https://github.com/edmundpf/nuxt_mongoose_pwa"
@@ -11,11 +16,6 @@
   "Nuxt Coffee PWA": {
     "text": "Automatic PWA starter template using Nuxt, Coffeescript, Bulma and Firestore",
     "git": "https://github.com/edmundpf/nuxt_coffee_pwa_starter"
-  },
-  "Print Tools JS": {
-    "text": "Easy-to-use print tools for Node.js",
-    "git": "https://github.com/edmundpf/print_tools_js",
-    "npm": "https://www.npmjs.com/package/print-tools-js"
   },
   "Python Datatype Tools": {
     "text": "Additional methods for Python's immutable data types",
