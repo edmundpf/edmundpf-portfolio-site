@@ -19,8 +19,10 @@
   "frameworks": [
     "React",
     "Vue",
+    "Preact",
     "React Native",
     "Nativescript",
+    "Ionic",
     "Nuxt",
     "Django",
     "Flask",

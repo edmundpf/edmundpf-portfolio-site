@@ -12,10 +12,10 @@
     "text": "Automatic PWA starter template using Nuxt, Coffeescript, Bulma and Firestore",
     "git": "https://github.com/edmundpf/nuxt_coffee_pwa_starter"
   },
-  "Print Tools JS": {
-    "text": "Easy-to-use print tools for Node.js",
-    "git": "https://github.com/edmundpf/print_tools_js",
-    "npm": "https://www.npmjs.com/package/print-tools-js"
+  "JSON Config TS": {
+    "text": "Easy-to-use config storage via JSON with optional base-64 encryption for sensitive data",
+    "git": "https://github.com/edmundpf/json-config-ts",
+    "npm": "https://www.npmjs.com/package/json-config-ts"
   },
   "Python Datatype Tools": {
     "text": "Additional methods for python's immutable data types",

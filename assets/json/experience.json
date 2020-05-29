@@ -4,6 +4,10 @@
     "description": "Rewrote company intranet using Python/Javascript, maintained existing PHP intranet, and wrote various programs in RPG."
   },
   {
+    "title": "Runsmart Online Inc. | Web Developer | Spring 2020 - Current",
+    "description": "Wrote and maintained mobile-friendly pages/tools in PHP for users to follow a personalized training plan."
+  },
+  {
     "title": "Kaiser Engineering | Mobile App Developer | Fall 2018 - Current",
     "description": "Wrote native iOS/Android app using Javascript, Nativescript, and Vue."
   },
@@ -14,9 +18,5 @@
   {
     "title": "Canisius College | Web Developer | Winter 2017 - Spring 2018",
     "description": "Developed mobile-friendly website for college radio station."
-  },
-  {
-    "title": "Niagra County | IT Intern | Summer 2016",
-    "description": "Installed hardware and peripherals for Niagara County personnel. Served as troubleshooter and assisted users."
   }
 ]
