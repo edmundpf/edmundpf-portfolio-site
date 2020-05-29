@@ -13,7 +13,6 @@
     "text": "Automatic Rest API and CRUD web app secured by JWT using Vue/Nuxt, just add your Mongoose models",
     "git": "https://github.com/edmundpf/nuxt_mongoose_pwa"
   },
-<<<<<<< HEAD
   "Nuxt Coffee PWA": {
     "text": "Automatic PWA starter template using Nuxt, Coffeescript, Bulma and Firestore",
     "git": "https://github.com/edmundpf/nuxt_coffee_pwa_starter"
@@ -22,11 +21,6 @@
     "text": "Easy-to-use config storage via JSON with optional base-64 encryption for sensitive data",
     "git": "https://github.com/edmundpf/json-config-ts",
     "npm": "https://www.npmjs.com/package/json-config-ts"
-=======
-  "JSON Config": {
-    "text": "Easy-to-use config storage via JSON with optional encryption for sensitive data",
-    "git": "https://github.com/edmundpf/json-config-ts"
->>>>>>> 455b548381745e04d216e2e37480548b48d3ac04
   },
   "Python Datatype Tools": {
     "text": "Additional methods for Python's immutable data types",
