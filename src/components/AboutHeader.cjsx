@@ -2,7 +2,11 @@ React = require('react')
 Navbar = require('./Navbar.cjsx')
 Hero = require('./Hero.cjsx')
 
-navbarTitle ="Home 🖥️"
+if window.MSCompatibleInfo?
+	navbarTitle ="Home"
+else
+	navbarTitle ="Home 🖥️"
+
 heroTitle = 'About Me'
 emailLink = 'mailto:edmundpf@buffalo.edu.com'
 
