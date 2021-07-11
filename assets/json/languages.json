@@ -20,16 +20,16 @@
     "React",
     "Vue",
     "Preact",
+    "Express",
     "React Native",
-    "Nativescript",
     "Ionic",
     "Nuxt",
+    "Next.js",
     "Django",
     "Flask",
     "JQuery",
     "Bootstrap",
-    "Bulma",
-    "Vuetify"
+    "Material UI"
   ],
   "server": [
     "VB.NET",
