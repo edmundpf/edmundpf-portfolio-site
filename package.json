@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "watchify src/index.cjsx -o build/index.js",
-    "build": "browserify src/index.cjsx -d -p [minifyify --uglify [--mangle 0] --map build/index.map.json --output build/index.map.json] -o build/index.js",
-    "serve": "serve"
+    "watch": "npx watchify src/index.cjsx -o build/index.js",
+    "build": "npx browserify src/index.cjsx -d -p [minifyify --uglify [--mangle 0] --map build/index.map.json --output build/index.map.json] -o build/index.js",
+    "serve": "npx serve"
   },
   "browserify": {
     "debug": true,
@@ -46,7 +46,7 @@
   "license": "MIT",
   "devDependencies": {
     "aliasify": "^2.1.0",
-    "browserify": "^16.0.1",
+    "browserify": "^16.5.2",
     "coffee-reactify": "^5.1.0",
     "coffeeify": "^3.0.1",
     "coffeescript": "^2.3.1",
@@ -54,7 +54,8 @@
     "preact": "^8.3.1",
     "preact-compat": "^3.18.4",
     "proptypes": "^1.1.0",
-    "watchify": "^3.11.0"
+    "serve": "^12.0.1",
+    "watchify": "^3.11.1"
   },
   "dependencies": {
     "preact-router": "^2.6.1"

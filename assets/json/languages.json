@@ -1,13 +1,15 @@
 {
   "web": [
-    "Python",
     "Javascript",
+    "Python",
     "Node.js",
     "PHP",
     "Ruby on Rails",
+    "Solidity",
     "VB.NET",
     "Perl",
     "Java",
+    "Rust",
     "Go",
     "C",
     "C++",
