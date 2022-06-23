@@ -1,6 +1,6 @@
 {
   "Multi-Chain Balances": {
-    "text": "Gets Defi balances and transaction/price history for tax purposes from blockchains like Ethereum, Polygon, BSC, Fantom, and Avalanche",
+    "text": "Fetches Defi balances and transaction/price history for tax purposes from blockchains like Ethereum, Polygon, BSC, Fantom, and Avalanche, and Harmony One",
     "git": "https://github.com/edmundpf/multi-chain-balances-ts"
   },
   "Postgrest Client": {

@@ -8,7 +8,7 @@ else
 	navbarTitle ="Home 🖥️"
 
 heroTitle = '⚡ Edmund Pfeil 💻'
-heroTagline = "Hi there 👋 I'm a software/web developer that enjoys creating lightweight, fast, and mobile-friendly applications using the latest technologies"
+heroTagline = "Hello there 👋 I'm a Full Stack Developer that enjoys creating lightweight, fast, and mobile-friendly applications using the latest technologies/frameworks"
 emailLink = 'mailto:edmundpf@buffalo.edu.com'
 
 navbarLinks =
