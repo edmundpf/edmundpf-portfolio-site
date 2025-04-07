@@ -1,14 +1,14 @@
 [
   {
     "title": "CCMA, LLC | Software/Web Developer | Fall 2018 - Current",
-    "description": "Rewrote company intranet using Python/Javascript, and maintained existing PHP intranet. Created internal company REST API. Consumed external API's and scraped numerous sources to create various internal tools for historical price analysis and interactive mapping."
+    "description": "Rewrote company intranet using React/Python, and maintained existing PHP intranet. Created internal company REST API using Express.js. Consumed external API's and scraped numerous sources to create various internal tools for historical price analysis and interactive mapping."
   },
   {
     "title": "Runsmart Online Inc. | Web Developer | Spring 2020 - Current",
-    "description": "Wrote and maintained mobile-friendly pages/tools in PHP for users to follow a personalized training plan. Integrated chromecast capability for video streaming. Consumed external video metadata API's to algorithmically suggest new videos to users."
+    "description": "Wrote and maintained mobile-friendly pages/tools in React/PHP for users to follow a personalized training plan. Integrated chromecast capability for video streaming via Ionic. Consumed external video metadata API's to algorithmically suggest new videos to users."
   },
   {
-    "title": "Jets.com | Email Designer | Spring 2021 - Current",
+    "title": "Jets.com | Email Designer | Spring 2021 - Fall 2021",
     "description": "Designed mobile-friendly emails compatible with legacy clients such as Outlook. Designed marketing emails using best practices for optimal success rate."
   },
   {
@@ -17,10 +17,10 @@
   },
   {
     "title": "Yahoo! | Developer/Network Technician | Fall 2017 - Fall 2018",
-    "description": "Wrote various terminal scripts/web apps to assist in networking operations and server hard-drive replacement/maintenance. Configured network settings for servers and switches."
+    "description": "Wrote various terminal scripts/web apps using React/Python to assist in networking operations and server hard-drive replacement/maintenance. Configured network settings for servers and switches."
   },
   {
     "title": "Canisius College | Web Developer | Winter 2017 - Spring 2018",
-    "description": "Developed mobile-friendly website for college radio station to stream live radio shows."
+    "description": "Developed mobile-friendly website using Vue.js for college radio station to stream live radio shows."
   }
 ]

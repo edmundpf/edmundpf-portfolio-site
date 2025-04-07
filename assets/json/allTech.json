@@ -3,10 +3,12 @@
   "FTP",
   "Linux",
   "Visual Studio",
-  "Eclipse",
   "Unity",
+  "Eclipse",
   "Windows",
   "Mac OS",
+  "XCode",
+  "Android Studio",
   "VMware Workstation",
   "Microsoft Office"
 ]

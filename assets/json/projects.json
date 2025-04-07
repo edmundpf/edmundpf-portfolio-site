@@ -1,4 +1,12 @@
 {
+  "Multi-Chain Balances": {
+    "text": "Fetches Defi balances and transaction/price history for tax purposes from blockchains like Ethereum, Polygon, BSC, Fantom, and Avalanche, and Harmony One",
+    "git": "https://github.com/edmundpf/multi-chain-balances-ts"
+  },
+  "Postgrest Client": {
+    "text": "Client library to consume Postgrest REST API, written in Typescript",
+    "git": "https://github.com/edmundpf/postgrest-client-ts"
+  },
   "Robinhood Yolo": {
     "text": "Robinhood Brokerage API and CLI for options trading written in Node.js",
     "git": "https://github.com/edmundpf/robinhood_yolo",
@@ -12,10 +20,6 @@
   "Nuxt Mongoose PWA": {
     "text": "Automatic Rest API and CRUD web app secured by JWT using Vue/Nuxt, just add your Mongoose models",
     "git": "https://github.com/edmundpf/nuxt_mongoose_pwa"
-  },
-  "Nuxt Coffee PWA": {
-    "text": "Automatic PWA starter template using Nuxt, Coffeescript, Bulma and Firestore",
-    "git": "https://github.com/edmundpf/nuxt_coffee_pwa_starter"
   },
   "JSON Config TS": {
     "text": "Easy-to-use config storage via JSON with optional base-64 encryption for sensitive data",

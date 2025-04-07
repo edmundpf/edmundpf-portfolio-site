@@ -2,11 +2,12 @@ React = require('react')
 EmailCard = require('./EmailCard.cjsx')
 languageItems = require('../../assets/json/languages.json')
 techItems = require('../../assets/json/allTech.json')
+artItems = require('../../assets/json/art.json')
 
 nonCoding =
 	title: "What I do when I'm not coding 👀"
 	text: """
-	I really enjoy music and like everything from EDM to Hip-Hop to Rock and pretty much everything in between.
+	I create digital art and I'm into all things crypto. I really enjoy music and like everything from EDM to Hip-Hop to Rock and pretty much everything in between.
 	I also lift weights semi-religiously for fun. Lastly, I enjoy long drives, long walks, and a good hamburger.
 	"""
 
@@ -21,6 +22,10 @@ languages =
 tech =
 	title: 'Technologies ⚙️'
 	items: techItems
+
+art =
+	title: 'Art 🎨'
+	items: artItems
 
 docs =
 	title: 'Documents 📄'
@@ -88,6 +93,20 @@ module.exports = class extends React.Component
 				}
 				</ul>
 			</p>
+
+			<a name="art" class="_f-white">
+				<h4 class="card-title">{ art.title }</h4>
+			</a>
+			<hr class="card-div" />
+			<div class="row">
+				{
+					art.items.map((name, index) =>
+						<div class="col f4">
+							<img src="assets/images/#{name}" />
+						</div>
+					)
+				}
+			</div>
 
 			<EmailCard />
 
