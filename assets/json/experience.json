@@ -1,26 +1,34 @@
 [
   {
-    "title": "CCMA, LLC | Software/Web Developer | Fall 2018 - Current",
-    "description": "Rewrote company intranet using React/Python, and maintained existing PHP intranet. Created internal company REST API using Express.js. Consumed external API's and scraped numerous sources to create various internal tools for historical price analysis and interactive mapping."
+    "title": "SimpleAssist.io | Software/Web Developer | Winter 2024 - Present",
+    "description": "Built a client-customized AI chatbot by scraping/parsing business sites into structured data (contacts, hours, addresses, emails). Shipped lead-gen automation to identify/qualify prospects across niches. Integrated payments and a PostgREST-backed Postgres database for onboarding + configuration."
   },
   {
-    "title": "Runsmart Online Inc. | Web Developer | Spring 2020 - Current",
-    "description": "Wrote and maintained mobile-friendly pages/tools in React/PHP for users to follow a personalized training plan. Integrated chromecast capability for video streaming via Ionic. Consumed external video metadata API's to algorithmically suggest new videos to users."
+    "title": "Beefy Finance & Other Web3 Projects | Software/Web Developer | Fall 2022 - Winter 2024",
+    "description": "Created APIs + a dashboard to surface portfolio positions across multiple EVM chains/platforms. Built real-time monitoring tools for exchange pricing/arbitrage signals. Contributed to a simplified tax UI for crypto transactions across EVM networks."
   },
   {
-    "title": "Jets.com | Email Designer | Spring 2021 - Fall 2021",
-    "description": "Designed mobile-friendly emails compatible with legacy clients such as Outlook. Designed marketing emails using best practices for optimal success rate."
+    "title": "Jets.com | Software/Web Developer | Winter 2022 - Spring 2023",
+    "description": "Improved site UI/UX and mobile responsiveness for a more polished, conversion-friendly experience. Designed email templates aligned with deliverability best practices. Wrote scripts to source and organize outreach leads from forums and curated lists."
+  },
+  {
+    "title": "CCMA, LLC | Software/Web Developer | Fall 2018 - Spring 2023",
+    "description": "Rewrote the company intranet using React/Python while maintaining legacy PHP during migration. Shipped an internal REST API (Express.js) to support tools/workflows. Integrated external APIs + web scraping for historical price analysis and interactive mapping."
+  },
+  {
+    "title": "Runsmart Online, Inc. | Web Developer | Spring 2020 - Fall 2021",
+    "description": "Built and maintained mobile-friendly PHP pages/tools supporting personalized training plans. Integrated external APIs to adjust workouts based on weather and conditions."
   },
   {
     "title": "Kaiser Engineering | Mobile App Developer | Fall 2018 - Spring 2020",
-    "description": "Wrote native iOS/Android app using Javascript, Nativescript, and Vue. Wrote receiver application to communicate with external hardware using BLE."
+    "description": "Developed a cross-platform iOS/Android app (JavaScript) to interface with physical automotive hardware. Designed a streamlined UI for fast, on-the-go device configuration."
   },
   {
-    "title": "Yahoo! | Developer/Network Technician | Fall 2017 - Fall 2018",
-    "description": "Wrote various terminal scripts/web apps using React/Python to assist in networking operations and server hard-drive replacement/maintenance. Configured network settings for servers and switches."
+    "title": "Yahoo! | Network Technician / Developer | Fall 2017 - Fall 2018",
+    "description": "Configured server/switch networking (IP configuration, DNS) and supported deployments. Installed copper/fiber cabling for new hardware. Authored terminal scripts and auditing tools to streamline operations and inventory management."
   },
   {
-    "title": "Canisius College | Web Developer | Winter 2017 - Spring 2018",
-    "description": "Developed mobile-friendly website using Vue.js for college radio station to stream live radio shows."
+    "title": "Canisius College | Web Developer | Spring 2017",
+    "description": "Redesigned The Wire Radio Station website for fast streaming and a mobile-friendly experience."
   }
 ]

@@ -31,7 +31,6 @@ docs =
 	title: 'Documents 📄'
 	items:
 		'Resume': 'assets/pdf/Edmund Pfeil - Resume.pdf'
-		'Cover Letter': 'assets/pdf/Edmund Pfeil - Cover Letter.pdf'
 		'References': 'assets/pdf/Edmund Pfeil - References.pdf'
 
 module.exports = class extends React.Component
